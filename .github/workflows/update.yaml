@@ -1,0 +1,20 @@
+# https://dev.to/ewefie/getting-started-with-github-actions-run-junit-5-tests-in-a-java-project-with-maven-20g4
+name: update
+on: push
+  branches:
+    - main
+jobs:
+  dispatch-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dispatch update
+        uses: actions/github-script@v5
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              'weichware-10',
+              'util',
+              'workflows/update.yaml',
+              'main',
+              {message: ${{ github.event.head_commit.message }} }
+            });
