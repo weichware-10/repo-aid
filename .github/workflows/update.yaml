@@ -9,13 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: dispatch update
-        uses: actions/github-script@v5
+        uses: actions/github-script@v4
         with:
           script: |
             await github.rest.actions.createWorkflowDispatch({
               'weichware-10',
               'util',
-              workflow_id: 'update.yaml',
-              ref: 'main',
+              'workflows/update.yaml',
+              'main',
+              {message: ${{ github.event.head_commit.message }} },
             });
           debug: true
