@@ -1,8 +1,9 @@
 # https://dev.to/ewefie/getting-started-with-github-actions-run-junit-5-tests-in-a-java-project-with-maven-20g4
 name: update
-on: push
-  branches:
-    - main
+on:
+  push:
+    branches:
+      - main
 jobs:
   dispatch-update:
     runs-on: ubuntu-latest
