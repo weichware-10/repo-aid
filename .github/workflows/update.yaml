@@ -15,7 +15,7 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               'weichware-10',
               'util',
-              'workflows/update.yaml',
-              'main',
+              workflow_id: 'update.yaml',
+              ref: 'main',
             });
           debug: true
