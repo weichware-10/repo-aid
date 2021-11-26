@@ -17,6 +17,5 @@ jobs:
               'util',
               'workflows/update.yaml',
               'main',
-              {message: ${{ github.event.head_commit.message }} },
             });
           debug: true
