@@ -4,20 +4,13 @@ on:
     branches:
       - main
 jobs:
-  dispatch-update:
+  update-util:
     runs-on: ubuntu-latest
     steps:
       - name: dispatch update
-        uses: actions/github-script@v5
+        uses: benc-uk/workflow-dispatch@v1
         with:
-          script: |
-            await github.rest.actions.createWorkflowDispatch({
-              'weichware-10',
-              'util',
-              'workflows/update.yaml',
-              'main',
-              inputs: {
-                message: ${{ github.event.head_commit.message }},
-              },
-            });
-          debug: true
+          workflow: update
+          repo: joshuajeschek/util
+          token: ${{ secrets.WEICHWARE_UPDATE }}
+          inputs: '{ "message": "${{ github.event.commits[0].message }}" }'
