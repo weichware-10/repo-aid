@@ -12,7 +12,7 @@ jobs:
         with:
           workflow: update
           repo: weichware10/util
-          token: ${{ secrets.WEICHWARE_UPDATE }}
+          token: ${{ secrets.WEICHBOT }}
           inputs: '{ "message": "${{ github.event.commits[0].message }}" }'
   update-toolbox:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
         with:
           workflow: update
           repo: weichware10/toolbox
-          token: ${{ secrets.WEICHWARE_UPDATE }}
+          token: ${{ secrets.WEICHBOT }}
           inputs: '{ "message": "${{ github.event.commits[0].message }}" }'
   update-analyse:
     runs-on: ubuntu-latest
@@ -32,5 +32,5 @@ jobs:
         with:
           workflow: update
           repo: weichware10/analyse
-          token: ${{ secrets.WEICHWARE_UPDATE }}
+          token: ${{ secrets.WEICHBOT }}
           inputs: '{ "message": "${{ github.event.commits[0].message }}" }'
