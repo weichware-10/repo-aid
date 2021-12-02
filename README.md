@@ -33,3 +33,7 @@ Der [checkstyle](workflows/checkstyle.yaml)-Workflow wird bei Änderungen von Ja
 Die Style-Regeln stammen aus [checkstyle.xml](checkstyle.xml) und werden [hier](checkstyle.md) dokumentiert.
 Lokal kann man den Style mit `mvn verify checkstyle:check` oder mit der Checkstyle Erweiterung für VSCode checken.
 ![Activity-Diagramm checkstyle.yaml](diagrams/checkstyle.svg)
+
+### Badges
+Der [badges](workflows/badges.yaml)-Workflow wird bei Änderungen von Java-Dateien auf dem main-Branch aufgerufen und rendert svg-Dateien, welche den aktuellen Status der Tests und die Code Coverage anzeigen. Die Badges sind am Anfang der README-Dateien zu sehen.
+![Activity-Diagramm badges.yaml](diagrams/badges.svg)
