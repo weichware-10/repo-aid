@@ -3,9 +3,41 @@ on:
   push:
     paths: ['**.puml']
 jobs:
+  
+  puml-to-svg:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '#')"
+    steps:
+
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.WEICHBOT }}
+          fetch-depth: 1
+
+      - run: git pull
+
+      # signed commits
+      - name: import GPG
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.WEICHBOT_GPG_PRIVATE }}
+          passphrase: ${{ secrets.WEICHBOT_GPG_PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+
+      - name: convert files
+        uses: grassedge/generate-plantuml-action@master
+        with:
+          message: '[chore] rendered SVGs'
+        env:
+          GITHUB_TOKEN: ${{ secrets.WEICHBOT }}
+
   puml-to-png:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '#')"
+    needs: puml-to-svg
     steps:
 
       - name: checkout
@@ -53,33 +85,4 @@ jobs:
           commit_user_name: 'weichbot10'
           commit_user_email: 'weichbot10@users.noreply.github.com'
 
-  puml-to-svg:
-    runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '#')"
-    needs: puml-to-png
-    steps:
-
-      - name: checkout
-        uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.WEICHBOT }}
-          fetch-depth: 1
-
-      - run: git pull
-
-      # signed commits
-      - name: import GPG
-        id: import_gpg
-        uses: crazy-max/ghaction-import-gpg@v4
-        with:
-          gpg_private_key: ${{ secrets.WEICHBOT_GPG_PRIVATE }}
-          passphrase: ${{ secrets.WEICHBOT_GPG_PASSPHRASE }}
-          git_user_signingkey: true
-          git_commit_gpgsign: true
-
-      - name: convert files
-        uses: grassedge/generate-plantuml-action@master
-        with:
-          message: '[chore] rendered SVGs'
-        env:
-          GITHUB_TOKEN: ${{ secrets.WEICHBOT }}
+  
