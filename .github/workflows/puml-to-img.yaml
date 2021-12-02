@@ -1,10 +1,10 @@
 name: puml-to-img
 on:
   pull_request:
+    paths: ['**.puml']
   push:
     branches: [main]
-    paths:
-      - '**.puml'
+    paths: ['**.puml']
 jobs:
   puml-to-png:
     runs-on: ubuntu-latest
