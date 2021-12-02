@@ -1,4 +1,5 @@
 @startuml checkstyle
+
 start
 note
     update eines Pull Requests
@@ -15,4 +16,5 @@ else (nein)
     stop
     note right #43aa5a : success
 endif
+
 @enduml
