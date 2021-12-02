@@ -16,7 +16,7 @@ und dort auch den gleichen Stand haben sollten.
 ## Checkstyle
 siehe Dokumentation [hier](checkstyle.md)
 
---
+---
 
 ## Workflows
 
