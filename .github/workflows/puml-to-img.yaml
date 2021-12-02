@@ -3,7 +3,7 @@ on:
   push:
     paths: ['**.puml']
 jobs:
-  
+
   puml-to-svg:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '#')"
@@ -14,8 +14,6 @@ jobs:
         with:
           token: ${{ secrets.WEICHBOT }}
           fetch-depth: 1
-
-      - run: git pull
 
       # signed commits
       - name: import GPG
@@ -45,6 +43,8 @@ jobs:
         with:
           token: ${{ secrets.WEICHBOT }}
           fetch-depth: 2
+
+      - run: git pull
 
       - name: install plantuml
         run: |
@@ -84,5 +84,3 @@ jobs:
           commit_message: '[chore] rendered PNGs'
           commit_user_name: 'weichbot10'
           commit_user_email: 'weichbot10@users.noreply.github.com'
-
-  
