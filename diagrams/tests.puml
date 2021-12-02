@@ -7,9 +7,7 @@ note
 end note
 
 :Java Setup - Default Version ist nicht 17;
-
 :Durchführen der Tests;
-
 :Veröffentlichen der Ergebnisse;
 
 if (Tests erfolgreich) then (ja)
