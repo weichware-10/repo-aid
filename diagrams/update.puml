@@ -4,9 +4,7 @@ start
 note
     commit auf repo-utils/main
 end note
-
 :repo-utils:update;
-
 split
     partition "**update** toolbox" {
         (A)

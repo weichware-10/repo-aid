@@ -1,7 +1,6 @@
 name: puml-to-img
 on:
   push:
-    branches: [main]
     paths: ['**.puml']
 jobs:
   check-push-type:
