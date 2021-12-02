@@ -6,6 +6,7 @@ note
 end note
 
 :Style überprüfen;
+
 if (Probleme gefunden) then (ja)
     :Posten von Kommentaren beim Pull Request;
     end
