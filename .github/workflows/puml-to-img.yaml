@@ -63,6 +63,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.WEICHBOT }}
+        fetch-depth: 1
 
     - name: convert files
       uses: grassedge/generate-plantuml-action@v1.5
