@@ -1,0 +1,48 @@
+@startuml release
+
+'(blank character at end of next line)
+|main|⠀
+start
+
+note
+    manuelle Aktivierung
+    Inputs:
+        - Version
+        - neue Snapshot-Version
+        - Installer-Version
+end note
+
+:Tests laufen lassen;
+
+if (GUI-Anwendung?) then (ja)
+    fork
+        :Linux-Installer (.deb);
+    fork again
+        :Windows-Installer (.msi);
+    fork again
+        : MacOS-Installer (.dmg);
+    end fork
+else (nein)
+    :JAR kompilieren;
+endif
+'(blank character at end of next line)
+|artifacts|⠀
+:Installer oder JAR als Artifakt hochladen;
+|main|
+
+:Tag in git erstellen, Version in pom.xml anpassen, commit erstellen;
+
+:Release erstellen;
+note
+    erscheint auf Releases-Seite auf GitHub
+end note
+
+|artifacts|
+:Installer oder JAR zu Release hinzufügen;
+|main|
+
+:Version in pom.xml auf nächste Snapshot-Version anpassen;
+
+stop
+
+@enduml
