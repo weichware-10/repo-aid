@@ -1,0 +1,38 @@
+@startuml tests
+
+start
+note
+    update eines Pull Request
+    oder push auf main
+end note
+
+:Java Setup - Default Version ist nicht 17;
+:Durchführen der Tests;
+:Veröffentlichen der Ergebnisse;
+
+if (Tests erfolgreich) then (ja)
+    if (GUI-Anwendung?) then (ja)
+        fork
+            :Linux-Installer (.deb);
+        fork again
+            :Windows-Installer (.msi);
+        fork again
+            : MacOS-Installer (.dmg);
+        end fork
+    else (nein)
+        :JAR kompilieren;
+    endif
+    if (erfolgreiche Kompilierung?) then (ja)
+        :Installer oder JAR als Artifakt hochladen;
+        stop
+        note left #43aa5a : success
+    else (nein)
+        end
+        note right #C82333 : fail
+    endif
+else (nein)
+    end
+    note right #C82333 : fail
+endif
+
+@enduml

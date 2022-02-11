@@ -1,0 +1,23 @@
+@startuml badges
+
+start
+
+note
+    push auf main
+end note
+
+:Java Setup - Default Version ist nicht 17;
+
+:Code Coverage Report erstellen;
+
+:Code Coverage Badge speichern;
+
+:Warten bis Test Workflow fertig ist;
+
+:Test Badge speichern;
+
+:comitten;
+
+stop
+
+@enduml

@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - workflows/*.yaml
+      - .gitignore
+      - checkstyle.xml
 jobs:
   update-util:
     runs-on: ubuntu-latest

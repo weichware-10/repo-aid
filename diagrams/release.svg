@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="677px" preserveAspectRatio="none" style="width:1015px;height:677px;background:#FFFFFF;" version="1.1" viewBox="0 0 1015 677" width="1015px" zoomAndPan="magnify"><defs><filter height="300%" id="f17l0lhsya58vi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><path d="M248,38.6982 L248,124.3623 A0,0 0 0 0 248,124.3623 L443,124.3623 A0,0 0 0 0 443,124.3623 L443,85.5303 L463,81.5303 L443,77.5303 L443,48.6982 L433,38.6982 L248,38.6982 A0,0 0 0 0 248,38.6982 " fill="#FBFB77" filter="url(#f17l0lhsya58vi)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M433,38.6982 L433,48.6982 L443,48.6982 L433,38.6982 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="254" y="55.7651">manuelle Aktivierung</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="254" y="70.8979">Inputs:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="270" y="86.0308">- Version</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="270" y="101.1636">- neue Snapshot-Version</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="270" y="116.2964">- Installer-Version</text><ellipse cx="473" cy="81.5303" fill="#000000" filter="url(#f17l0lhsya58vi)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="136" x="405" y="144.3623"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="415" y="165.501">Tests laufen lassen</text><polygon fill="#FEFECE" filter="url(#f17l0lhsya58vi)" points="424.5,198.3311,521.5,198.3311,533.5,210.3311,521.5,222.3311,424.5,222.3311,412.5,210.3311,424.5,198.3311" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="424.5" y="214.1392">GUI-Anwendung?</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="10" x="402.5" y="207.7368">ja</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="533.5" y="207.7368">nein</text><rect fill="#000000" filter="url(#f17l0lhsya58vi)" height="6" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="552" x="21" y="232.3311"/><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="143" x="33" y="258.3311"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="43" y="279.4697">Linux-Installer (.deb)</text><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="165" x="204" y="258.3311"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="145" x="214" y="279.4697">Windows-Installer (.msi)</text><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="162" x="397" y="258.3311"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="138" x="411" y="279.4697">MacOS-Installer (.dmg)</text><rect fill="#000000" filter="url(#f17l0lhsya58vi)" height="6" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="552" x="21" y="312.2998"/><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="114" x="593" y="232.3311"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="94" x="603" y="253.4697">JAR kompilieren</text><polygon fill="#FEFECE" filter="url(#f17l0lhsya58vi)" points="473,324.2998,485,336.2998,473,348.2998,461,336.2998,473,324.2998" style="stroke:#A80036;stroke-width:1.5;"/><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="426" x="260" y="422.2686"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="406" x="270" y="443.4072">Tag in git erstellen, Version in pom.xml anpassen, commit erstellen</text><path d="M114.5,480.6553 L114.5,505.7881 A0,0 0 0 0 114.5,505.7881 L390.5,505.7881 A0,0 0 0 0 390.5,505.7881 L390.5,498.6553 L410.5,493.2217 L390.5,490.6553 L390.5,490.6553 L380.5,480.6553 L114.5,480.6553 A0,0 0 0 0 114.5,480.6553 " fill="#FBFB77" filter="url(#f17l0lhsya58vi)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M380.5,480.6553 L380.5,490.6553 L390.5,490.6553 L380.5,480.6553 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="120.5" y="497.7222">erscheint auf Releases-Seite auf GitHub</text><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="125" x="410.5" y="476.2373"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="105" x="420.5" y="497.376">Release erstellen</text><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="381" x="282.5" y="584.1748"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="361" x="292.5" y="605.3135">Version in pom.xml auf nächste Snapshot-Version anpassen</text><ellipse cx="473" cy="649.1436" fill="#FFFFFF" filter="url(#f17l0lhsya58vi)" rx="11" ry="11" style="stroke:#000000;stroke-width:1.0;"/><ellipse cx="473" cy="649.1436" fill="#000000" rx="6" ry="6" style="stroke:#7F7F7F;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:2.0;" x1="15" x2="15" y1="12.7451" y2="660.1436"/><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="256" x="726" y="368.2998"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="236" x="736" y="389.4385">Installer oder JAR als Artifakt hochladen</text><rect fill="#FEFECE" filter="url(#f17l0lhsya58vi)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="262" x="723" y="530.2061"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="242" x="733" y="551.3447">Installer oder JAR zu Release hinzufügen</text><line style="stroke:#000000;stroke-width:2.0;" x1="717" x2="717" y1="12.7451" y2="660.1436"/><line style="stroke:#000000;stroke-width:2.0;" x1="995" x2="995" y1="12.7451" y2="660.1436"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="91.5303" y2="144.3623"/><polygon fill="#A80036" points="469,134.3623,473,144.3623,477,134.3623,473,138.3623" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="104.5" x2="104.5" y1="238.3311" y2="258.3311"/><polygon fill="#A80036" points="100.5,248.3311,104.5,258.3311,108.5,248.3311,104.5,252.3311" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="286.5" x2="286.5" y1="238.3311" y2="258.3311"/><polygon fill="#A80036" points="282.5,248.3311,286.5,258.3311,290.5,248.3311,286.5,252.3311" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="478" x2="478" y1="238.3311" y2="258.3311"/><polygon fill="#A80036" points="474,248.3311,478,258.3311,482,248.3311,478,252.3311" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="104.5" x2="104.5" y1="292.2998" y2="312.2998"/><polygon fill="#A80036" points="100.5,302.2998,104.5,312.2998,108.5,302.2998,104.5,306.2998" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="286.5" x2="286.5" y1="292.2998" y2="312.2998"/><polygon fill="#A80036" points="282.5,302.2998,286.5,312.2998,290.5,302.2998,286.5,306.2998" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="478" x2="478" y1="292.2998" y2="312.2998"/><polygon fill="#A80036" points="474,302.2998,478,312.2998,482,302.2998,478,306.2998" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="412.5" x2="296" y1="210.3311" y2="210.3311"/><line style="stroke:#A80036;stroke-width:1.5;" x1="296" x2="296" y1="210.3311" y2="232.3311"/><polygon fill="#A80036" points="292,222.3311,296,232.3311,300,222.3311,296,226.3311" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="533.5" x2="650" y1="210.3311" y2="210.3311"/><line style="stroke:#A80036;stroke-width:1.5;" x1="650" x2="650" y1="210.3311" y2="232.3311"/><polygon fill="#A80036" points="646,222.3311,650,232.3311,654,222.3311,650,226.3311" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="296" x2="296" y1="318.2998" y2="336.2998"/><line style="stroke:#A80036;stroke-width:1.5;" x1="296" x2="461" y1="336.2998" y2="336.2998"/><polygon fill="#A80036" points="451,332.2998,461,336.2998,451,340.2998,455,336.2998" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="650" x2="650" y1="266.2998" y2="336.2998"/><line style="stroke:#A80036;stroke-width:1.5;" x1="650" x2="485" y1="336.2998" y2="336.2998"/><polygon fill="#A80036" points="495,332.2998,485,336.2998,495,340.2998,491,336.2998" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="178.3311" y2="198.3311"/><polygon fill="#A80036" points="469,188.3311,473,198.3311,477,188.3311,473,192.3311" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="456.2373" y2="476.2373"/><polygon fill="#A80036" points="469,466.2373,473,476.2373,477,466.2373,473,470.2373" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="618.1436" y2="638.1436"/><polygon fill="#A80036" points="469,628.1436,473,638.1436,477,628.1436,473,632.1436" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="348.2998" y2="353.2998"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="854" y1="353.2998" y2="353.2998"/><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="854" y1="353.2998" y2="368.2998"/><polygon fill="#A80036" points="850,358.2998,854,368.2998,858,358.2998,854,362.2998" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="854" y1="402.2686" y2="407.2686"/><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="473" y1="407.2686" y2="407.2686"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="407.2686" y2="422.2686"/><polygon fill="#A80036" points="469,412.2686,473,422.2686,477,412.2686,473,416.2686" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="510.2061" y2="515.2061"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="854" y1="515.2061" y2="515.2061"/><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="854" y1="515.2061" y2="530.2061"/><polygon fill="#A80036" points="850,520.2061,854,530.2061,858,520.2061,854,524.2061" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="854" y1="564.1748" y2="569.1748"/><line style="stroke:#A80036;stroke-width:1.5;" x1="854" x2="473" y1="569.1748" y2="569.1748"/><line style="stroke:#A80036;stroke-width:1.5;" x1="473" x2="473" y1="569.1748" y2="584.1748"/><polygon fill="#A80036" points="469,574.1748,473,584.1748,477,574.1748,473,578.1748" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="13" x="359.5" y="29.4531">⠀</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="13" x="849.5" y="29.4531">⠀</text><!--MD5=[d3ad516ee76e3c1c704633657363ea3b]
+@startuml
+'(blank character at end of next line)
+|main|⠀
+start
+
+note
+    manuelle Aktivierung
+    Inputs:
+        - Version
+        - neue Snapshot-Version
+        - Installer-Version
+end note
+
+:Tests laufen lassen;
+
+if (GUI-Anwendung?) then (ja)
+    fork
+        :Linux-Installer (.deb);
+    fork again
+        :Windows-Installer (.msi);
+    fork again
+        : MacOS-Installer (.dmg);
+    end fork
+else (nein)
+    :JAR kompilieren;
+endif
+'(blank character at end of next line)
+|artifacts|⠀
+:Installer oder JAR als Artifakt hochladen;
+|main|
+
+:Tag in git erstellen, Version in pom.xml anpassen, commit erstellen;
+
+:Release erstellen;
+note
+    erscheint auf Releases-Seite auf GitHub
+end note
+
+|artifacts|
+:Installer oder JAR zu Release hinzufügen;
+|main|
+
+:Version in pom.xml auf nächste Snapshot-Version anpassen;
+
+stop
+@enduml
+
+@startuml
+|main|⠀
+start
+
+note
+    manuelle Aktivierung
+    Inputs:
+        - Version
+        - neue Snapshot-Version
+        - Installer-Version
+end note
+
+:Tests laufen lassen;
+
+if (GUI-Anwendung?) then (ja)
+    fork
+        :Linux-Installer (.deb);
+    fork again
+        :Windows-Installer (.msi);
+    fork again
+        : MacOS-Installer (.dmg);
+    end fork
+else (nein)
+    :JAR kompilieren;
+endif
+|artifacts|⠀
+:Installer oder JAR als Artifakt hochladen;
+|main|
+
+:Tag in git erstellen, Version in pom.xml anpassen, commit erstellen;
+
+:Release erstellen;
+note
+    erscheint auf Releases-Seite auf GitHub
+end note
+
+|artifacts|
+:Installer oder JAR zu Release hinzufügen;
+|main|
+
+:Version in pom.xml auf nächste Snapshot-Version anpassen;
+
+stop
+@enduml
+
+PlantUML version 1.2022.2beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

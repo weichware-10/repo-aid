@@ -1,0 +1,34 @@
+@startuml update
+
+start
+note
+    commit auf repo-utils/main
+end note
+:repo-utils:update;
+split
+    partition "**update** toolbox" {
+        (A)
+        detach
+    }
+split again
+    partition "**update** util" {
+        (B)
+        detach
+    }
+split again
+    partition "**update** analyse" {
+        (C)
+        detach
+    }
+end split
+
+partition "**update** toolbox / analyse / util" {
+    :A / B / C;
+    :download workflows;
+    :download .gitignore;
+    :download checkstyle.xml;
+    :commit changed files;
+    stop
+}
+
+@enduml

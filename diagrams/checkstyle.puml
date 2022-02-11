@@ -1,0 +1,20 @@
+@startuml checkstyle
+
+start
+note
+    update eines Pull Requests
+    push auf main
+end note
+
+:Style überprüfen;
+
+if (Probleme gefunden) then (ja)
+    :Posten von Kommentaren beim Pull Request;
+    end
+    note left #C82333 : fail
+else (nein)
+    stop
+    note right #43aa5a : success
+endif
+
+@enduml
