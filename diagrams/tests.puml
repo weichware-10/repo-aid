@@ -11,8 +11,25 @@ end note
 :Veröffentlichen der Ergebnisse;
 
 if (Tests erfolgreich) then (ja)
-    stop
-    note left #43aa5a : success
+    if (GUI-Anwendung?) then (ja)
+        fork
+            :Linux-Installer (.deb);
+        fork again
+            :Windows-Installer (.msi);
+        fork again
+            : MacOS-Installer (.dmg);
+        end fork
+    else (nein)
+        :JAR kompilieren;
+    endif
+    if (erfolgreiche Kompilierung?) then (ja)
+        :Installer oder JAR als Artifakt hochladen;
+        stop
+        note left #43aa5a : success
+    else (nein)
+        end
+        note right #C82333 : fail
+    endif
 else (nein)
     end
     note right #C82333 : fail
