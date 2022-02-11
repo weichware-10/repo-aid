@@ -33,3 +33,8 @@ Der [checkstyle](workflows/checkstyle.yaml)-Workflow wird bei Änderungen von Ja
 Die Style-Regeln stammen aus [checkstyle.xml](checkstyle.xml) und werden [hier](checkstyle.md) dokumentiert.  
 Lokal kann man den Style mit `mvn verify checkstyle:check` oder mit der Checkstyle Erweiterung für VSCode checken.  
 ![Activity-Diagramm checkstyle.yaml](diagrams/checkstyle.svg)
+
+### Release
+Der [release](workflows/release.yaml)-Workflow wird bei jedem neuen Release eingesetzt.  
+Es kann die neue Versionsnummer, sowie die darauffolgende Snapshot-Version gewählt werden. Der Workflow erstellt Installer-Dateien für die Anwendungenen mit graphischer Benutzeroberfläche und eine JAR-Datei für util.  
+![Activity-Diagramm release.yaml](diagrams/release.svg)
