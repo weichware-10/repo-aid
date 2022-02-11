@@ -35,9 +35,6 @@
       <module name="MemberName">
         <property name="format" value="^[a-z][a-z0-9][a-zA-Z0-9]*$" />
     -   <message key="name.invalidPattern" value="Member name ''{0}'' must match pattern ''{1}''." />
-      </module>
-      <module name="MemberName">
-       <property name="format" value="^[a-z][a-z0-9][a-zA-Z0-9]*$" />
     +   <message key="name.invalidPattern" value="Member name ''{0}'' must match pattern ''{1}'' (camelCase, start with lowercase, only alphanumerical)." />
       </module>
     ```
